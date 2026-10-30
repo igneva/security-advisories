@@ -17,6 +17,7 @@ window (or an earlier vendor fix).
 | IGNEVA-2026-004 | tool_opencast — Moodle plugin (Opencast-Moodle) | Unauthenticated-reachable SSRF (CWE-918 / CWE-862) + Broken Access Control (CWE-862/863) | Coordinated disclosure in progress — **details embargoed** | *pending* |
 | IGNEVA-2026-005 | Sunshine Photo Cart — WordPress plugin | Unauthenticated Broken Access Control (CWE-862 / CWE-639) | **Published** (vendor fix in 3.7.5) | [CVE-2026-109689](https://www.cve.org/CVERecord?id=CVE-2026-109689) |
 | IGNEVA-2026-006 | Field Permissions — Drupal module | Broken Access Control / fail-open (CWE-284) | **Published** (fix in 8.x-1.6; [SA-CONTRIB-2026-289](https://www.drupal.org/sa-contrib-2026-289)) | [CVE-2026-118584](https://www.cve.org/CVERecord?id=CVE-2026-118584) |
+| IGNEVA-2026-007 | CAPTCHA — Drupal module | CAPTCHA bypass via session replay (CWE-287) | **Published** (fix in 2.0.11 / 8.x-1.18; [SA-CONTRIB-2026-281](https://www.drupal.org/sa-contrib-2026-281)) | [CVE-2026-118582](https://www.cve.org/CVERecord?id=CVE-2026-118582) |
 
 ---
 
@@ -49,6 +50,11 @@ window (or an earlier vendor fix).
 - **Affected:** < 1.6.0. **Fixed:** 8.x-1.6.
 - **Status:** **Published** — Drupal advisory SA-CONTRIB-2026-289; CVE-2026-118584 assigned. Credited as reporter and fixer.
 - **Full advisory:** [IGNEVA-2026-006-field-permissions.md](IGNEVA-2026-006-field-permissions.md)
+
+### IGNEVA-2026-007 — CAPTCHA (Drupal module)
+- **Affected:** < 1.18.0 and >= 2.0.0 < 2.0.11. **Fixed:** 2.0.11 / 8.x-1.18.
+- **Status:** **Published** — Drupal advisory SA-CONTRIB-2026-281; CVE-2026-118582 assigned. Credited as reporter (with the Drupal Security Team).
+- **Full advisory:** [IGNEVA-2026-007-captcha.md](IGNEVA-2026-007-captcha.md)
 
 ---
 
